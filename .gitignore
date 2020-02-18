@@ -1,7 +1,9 @@
 /node_modules
 /lib
 /example
-/dist
+/dist/base.css
+/dist/components.css
+/dist/utilities.css
 /.idea
 index.html
 package-lock.json

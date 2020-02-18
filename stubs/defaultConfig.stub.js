@@ -228,7 +228,7 @@ module.exports = {
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
     fontSize: {
-      ...sizeGenerator(50),
+      ...sizeGenerator(40),
     },
     fontWeight: {
       hairline: '100',
@@ -248,7 +248,7 @@ module.exports = {
       screen: '100vh',
     }),
     inset: {
-      ...sizeGenerator(200),
+      ...sizeGenerator(100),
       auto: 'auto',
       '1/2': '50%',
     },
@@ -293,19 +293,19 @@ module.exports = {
     },
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',
-      ...sizeGenerator(2000),
+      ...sizeGenerator(300),
       ...percentageGenerator(12),
       full: '100%',
       ...breakpoints(theme('screens')),
     }),
     minHeight: {
-      ...sizeGenerator(2000),
+      ...sizeGenerator(300),
       ...percentageGenerator(12),
       full: '100%',
       screen: '100vh',
     },
     minWidth: {
-      ...sizeGenerator(2000),
+      ...sizeGenerator(300),
       ...percentageGenerator(12),
       full: '100%',
     },
