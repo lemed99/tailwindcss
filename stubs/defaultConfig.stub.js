@@ -293,19 +293,16 @@ module.exports = {
     },
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',
-      ...sizeGenerator(300),
       ...percentageGenerator(12),
       full: '100%',
       ...breakpoints(theme('screens')),
     }),
     minHeight: {
-      ...sizeGenerator(300),
       ...percentageGenerator(12),
       full: '100%',
       screen: '100vh',
     },
     minWidth: {
-      ...sizeGenerator(300),
       ...percentageGenerator(12),
       full: '100%',
     },
